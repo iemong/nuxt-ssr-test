@@ -3,7 +3,6 @@
     <div>
       <Logo />
       <h1 class="title">ssr-test</h1>
-      <nuxt-link to="about">about</nuxt-link>
       <div class="links">
         <a
           href="https://nuxtjs.org/"
@@ -29,7 +28,20 @@
 <script lang="ts">
 import Vue from 'vue'
 
-export default Vue.extend({})
+export default Vue.extend({
+  head() {
+    return {
+      title: 'about',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'this is about page'
+        }
+      ]
+    }
+  }
+})
 </script>
 
 <style>
