@@ -6,6 +6,8 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
+      { name: 'twitter:card', content: 'summary_large_image'},
+      { property: "og:image", content: 'https://nuxt-ssr-test-umber.vercel.app/amabie_omairi_hatsumoude.png'}
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
