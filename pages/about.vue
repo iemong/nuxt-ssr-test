@@ -41,7 +41,7 @@ export default Vue.extend({
         {
           hid: 'og:image',
           property: "og:image",
-          content: 'https://nuxt-ssr-test-umber.vercel.app/amabie_omairi_hatsumoude.png'
+          content: 'https://nuxt-ssr-test-umber.vercel.app/daruma1_red.png'
         }
       ]
     }
